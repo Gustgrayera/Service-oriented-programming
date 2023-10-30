@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "gustavo-definicoes.dtd">
+
+<cardapio>
+     <prato id="i01">
+     <nome>Bauru</nome>
+     <descricao>Sanduiche simples</descricao>
+     <ingredientes>
+        <ingrediente>Pão</ingrediente>
+        <ingrediente>Ovo</ingrediente>
+        <ingrediente>Carne</ingrediente>
+        <ingrediente>Queijo</ingrediente>
+        <ingrediente>Presunto</ingrediente>
+     </ingredientes>
+     <preco moeda="USD">2</preco>
+     <calorias>1000</calorias>
+     <tempoPreparo>15</tempoPreparo>
+     </prato>
+
+     <prato id="i02">
+     <nome>Cachorro Quente</nome>
+     <descricao>Pão com carne</descricao>
+     <ingredientes>
+        <ingrediente>Pão</ingrediente>
+        <ingrediente>Salsicha</ingrediente>
+        <ingrediente>Frango</ingrediente>
+        <ingrediente>Queijo</ingrediente>
+        <ingrediente>Carne moída</ingrediente>
+     </ingredientes>
+     <preco moeda="USD">1</preco>
+     <calorias>1500</calorias>
+     <tempoPreparo>10</tempoPreparo>
+     </prato>
+
+     <prato id="i03">
+     <nome>Macarrão carbonara</nome>
+     <descricao>Massa com queijo</descricao>
+     <ingredientes>
+        <ingrediente>Macarrão</ingrediente>
+        <ingrediente>Bacon</ingrediente>
+        <ingrediente>Pimenta do reino</ingrediente>
+        <ingrediente>Queijo</ingrediente>
+        <ingrediente>Ovo</ingrediente>
+     </ingredientes>
+     <preco moeda="USD">3</preco>
+     <calorias>2000</calorias>
+     <tempoPreparo>30</tempoPreparo>
+     </prato>
+
+     <prato id="i04">
+     <nome>Strogonoff</nome>
+     <descricao>Arroz com frango</descricao>
+     <ingredientes>
+        <ingrediente>Arroz branco</ingrediente>
+        <ingrediente>Frango</ingrediente>
+        <ingrediente>Batata palha</ingrediente>
+     </ingredientes>
+     <preco moeda="USD">3</preco>
+     <calorias>1200</calorias>
+     <tempoPreparo>25</tempoPreparo>
+     </prato>
+
+     <prato id="i05">
+     <nome>Yakisoba</nome>
+     <descricao>Macarrão com carne e legumes</descricao>
+     <ingredientes>
+        <ingrediente>Macarrão</ingrediente>
+        <ingrediente>Carne</ingrediente>
+        <ingrediente>Cenoura</ingrediente>
+        <ingrediente>Cebola</ingrediente>
+        <ingrediente>Repolho</ingrediente>
+     </ingredientes>
+     <preco moeda="USD">1</preco>
+     <calorias>900</calorias>
+     <tempoPreparo>15</tempoPreparo>
+     </prato>
+</cardapio>
