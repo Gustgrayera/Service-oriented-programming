@@ -1,0 +1,123 @@
+<!DOCTYPE imobiliaria [
+  <!ELEMENT imobiliaria (imovel+)>
+  <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+  <!ELEMENT descricao (#PCDATA)>
+  <!ELEMENT proprietario (nome, (email|telefone)+)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT telefone (#PCDATA)>
+  <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+  <!ELEMENT rua (#PCDATA)>
+  <!ELEMENT bairro (#PCDATA)>
+  <!ELEMENT cidade (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+  <!ELEMENT tamanho (#PCDATA)>
+  <!ELEMENT numQuartos (#PCDATA)>
+  <!ELEMENT numBanheiros (#PCDATA)>
+  <!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+  <imovel>
+    <descricao>Casa aconchegante</descricao>
+    <proprietario>
+      <nome>Adelaide Silva</nome>
+      <email>ade.silva@gmail.com</email>
+      <telefone>(84) 1234-5678</telefone>
+      <telefone>(84) 9876-5432</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Monte Carlos</rua>
+      <bairro>Petrópolis</bairro>
+      <cidade>Natal</cidade>
+      <numero>123</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>200 metros quadrados</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>500000</valor>
+  </imovel>
+  
+  <imovel>
+    <descricao>Apartamento</descricao>
+    <proprietario>
+      <nome>Patrícia Gomes</nome>
+      <telefone>(84) 9999-8888</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Nossa Senhora Aparecida</rua>
+      <bairro>Presidente Costa e Silva</bairro>
+      <cidade>Mossoró</cidade>
+      <numero>456</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>60 metros quadrados</tamanho>
+      <numQuartos>2</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>200000</valor>
+  </imovel>
+  
+  <imovel>
+    <descricao>Sobrado espaçoso</descricao>
+    <proprietario>
+      <nome>Antonio Oliveira</nome>
+      <telefone>(51) 3333-4444</telefone>
+      <email>antonio.oliveira@gmail.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua Principal</rua>
+      <bairro>Centro</bairro>
+      <cidade>Porto Alegre</cidade>
+      <numero>789</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>300 metros quadrados</tamanho>
+      <numQuartos>4</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor>800000</valor>
+  </imovel>
+  
+  <imovel>
+    <descricao>Casa com piscina</descricao>
+    <proprietario>
+      <nome>Carlos Ferreira</nome>
+      <telefone>(31) 7777-8888</telefone>
+      <email>carlos.ferreira@gmail.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua dos Coqueiros</rua>
+      <bairro>Bela Vista</bairro>
+      <cidade>Belo Horizonte</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>180 metros quadrados</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>450000</valor>
+  </imovel>
+  
+  <imovel>
+    <descricao>Casa pequena</descricao>
+    <proprietario>
+      <nome>Ana Oliveira</nome>
+      <telefone>(11) 1111-2222</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua das Árvores</rua>
+      <bairro>Jardim das Flores</bairro>
+      <cidade>São Paulo</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>300 metros quadrados</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>20000</valor>
+  </imovel>
+</imobiliaria>
